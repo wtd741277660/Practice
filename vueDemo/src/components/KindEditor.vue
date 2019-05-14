@@ -1,7 +1,7 @@
 <template>
     <el-container>
       <!--顶部容器 -->
-      <el-header height="100px">
+      <el-header height="100px" class="header">
         <Header></Header>
       </el-header>
       <!--左侧容器-->
@@ -21,5 +21,7 @@
 </script>
 
 <style scoped>
-
+  .header{
+    padding:0px;
+  }
 </style>
