@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import FromDemo from '@/components/FromDemo'
+import KindEditor from '@/components/KindEditor'
 
 
 
@@ -18,6 +19,11 @@ export default new Router({
       path: '/formDemo',
       name: 'FormDemo',
       component: FromDemo
+    },
+    {
+      path: '/KindEditor',
+      name: 'KindEditor',
+      component: KindEditor
     }
   ]
 })
