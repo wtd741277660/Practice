@@ -1,0 +1,33 @@
+@font-face {font-family: "editor-iconfont";
+  src: url('iconfont.eot?t=1557881914704'); /* IE9 */
+  src: url('iconfont.eot?t=1557881914704#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANYAAsAAAAACGwAAAMMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqDKIJqATYCJAMUCwwABCAFhUEHYBtaB8iuMG7hSaEzKarHjoWeWy3JHu4APOLha618v6dnoWcP0N2qAyqP7CBAikjIaFJRNk4COUCXiWt+NMFT699bpFgk5QLH1TyRD5s18HSAo+33f84yYgU2wgzlFMGdGinA/Jazl2Zowc371sCEwjjbSIvGWEYxBxtwKLEFBBEudH7lSv/P5fTuKgwD/G2hUhlrUtGaNJdwz9fQPXiSlVBi3CK7B2IBvE6g6GOAB9P/DWRl6rxAPHOsC2QjLlmmAx2hBWzNTmwNpHRSD72AN87347duSJDUFdSlZw8md+h/Yx086TN7CwEE7VlB76LCMkAmnoD2exKedxmsiOFJKwAdzZpoy9t86n8CX/NVeeTKC/6Hl1Qy0QIe3wM7uDZbM4HBJPheM0l8b5hUfO+EJ+WWGhSMATwHXuPq6TZltSYdVlkgh6Pi9Fij91TX70OVsv02io6ka7/BFXh51UeMg/k9HegxlLecnCS7SlTm3BeYmv8Vdb++Vbc3Bv4u+Mv/CzKf8DRfdr0xZi9fe5i29y+XV4xLyNJqqc1nm8UrXWHQODlhVijypCkpJw8fdiL5Wb4gHMCY+vH0LtkAqqlkEr8AEWy8v6wi/+80HOA9WEtIn9Xn3wRBacHdapZzADIjUg11FmRyRUaKQG1nX+ckFAV3KciodzvKidLxhCETASRt01AZsoRmwhrUGqfQMuQyFEu83Y0xSwmRZbDojCD0PSEZ9BMqfV8kE8OA2mRY0hZECKG4GtGRjdn4KEXoonRH94vJjUOjp2s+uDvK0oi2tyLr6V8EyMd/akcSORyiyAlgYEYhSftrypfVrdRgKByg3sRNvs+YCbt002as+ujxfAi9qelxAHn7BLlQ5A65vlDihoWMZVf5nPEdiokGg66iLU++S1tFlyuBSNwhIuJIvUEijlAencnDOnnncE/pxdJVUQYKCRZA+kgSfT6GMniSi9yopriG+6GH1+qFZeXN/pXB1WiAQl1RB0MsccSTgO7tXzAq9Mlo0UtqeBQqSYlLSp+ROuZboCSF6bQVAA==') format('woff2'),
+  url('iconfont.woff?t=1557881914704') format('woff'),
+  url('iconfont.ttf?t=1557881914704') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1557881914704#editor-iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.editor-iconfont {
+  font-family: "editor-iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.editor-iconalignleft:before {
+  content: "\e62c";
+}
+
+.editor-iconalign-center:before {
+  content: "\e7b6";
+}
+
+.editor-iconalign-justify:before {
+  content: "\e7b7";
+}
+
+.editor-iconalign-right:before {
+  content: "\e7b9";
+}
+
