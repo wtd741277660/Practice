@@ -1,12 +1,12 @@
 <template>
     <el-container>
       <!--顶部容器 -->
-      <el-header height="156px" class="header">
+      <el-header height="136px" class="header">
         <Header></Header>
       </el-header>
       <el-container>
         <!--左侧容器-->
-        <el-aside>
+        <el-aside width="200px">
           <LeftAside></LeftAside>
         </el-aside>
         <!--主容器-->
@@ -14,6 +14,8 @@
           <CanvasPanel></CanvasPanel>
         </el-main>
       </el-container>
+      <!--底部容器-->
+      <el-footer><Footer></Footer></el-footer>
     </el-container>
 </template>
 
@@ -22,14 +24,20 @@
     import Header from "./header/Header";
     import CanvasPanel from "./main/CanvasPanel";
     import LeftAside from "./left/LeftAside";
+    import Footer from "./footer/Footer";
     export default {
-        name: "KindEditor",
-      components: {LeftAside, CanvasPanel, Header, MyComponent}
+      name: "KindEditor",
+      components: {Footer, LeftAside, CanvasPanel, Header, MyComponent},
+      data(){
+        return {
+
+        }
+      }
     }
 </script>
 
 <style scoped>
-  .header{
+  .header,.el-footer,.el-main{
     padding:0px;
   }
 </style>

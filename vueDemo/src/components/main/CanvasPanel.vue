@@ -25,7 +25,9 @@
             { name: "cat 5", id: 5 },
             { name: "cat 6", id: 6 },
             { name: "cat 7", id: 7 }
-          ]
+          ],
+          list: [],
+          index: 0
         }
       },
       methods: {
@@ -33,13 +35,25 @@
           window.console.log(evt);
         },
         cloneDog({ id }) {
+          alert(id)
           return {
             name: `cat ${id}`
           };
         },
         drop:function () {
-          
-        }
+          // alert("drop")
+        },
+        addListItem: function() {
+          var num = this.list.length;
+          this.list.push({
+            x: 20,
+            y: 20,
+            value: "新数据"+num
+          })
+        },
+        deleteListItem: function() {
+          this.list.splice(this.index, 1);
+        },
       }
     }
 </script>
@@ -50,6 +64,7 @@
     height:100%;
     margin:0px;
     padding:0px;
-    background-color: #97ff82;
+    border:1px solid #6c6c6c;
+    background-color: #ffffff;
   }
 </style>
