@@ -83,7 +83,35 @@
           </el-row>
         </div>
       </el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
+      <el-col :span="2">
+        <div class="grid-content bg-purple section-panel">
+          <el-row type="flex" justify="start" style="margin-top:10px;">
+            <el-col :span="6">
+              <a><i style="font-size: 16px;" class="editor-iconfont editor-iconchuizhiduiqishang"></i></a>
+            </el-col>
+            <el-col :span="6">
+              <a><i style="font-size: 16px;" class="editor-iconfont editor-iconchuizhiduiqizhong"></i></a>
+            </el-col>
+            <el-col :span="6">
+              <a><i style="font-size: 16px;" class="editor-iconfont editor-iconchuizhiduiqixia"></i></a>
+            </el-col>
+          </el-row>
+          <el-row type="flex" justify="start" style="margin-top:10px;">
+            <el-col :span="6">
+              <a><i style="font-size: 16px;" class="editor-iconfont editor-iconword-left"></i></a>
+            </el-col>
+            <el-col :span="6">
+              <a><i style="font-size: 16px;" class="editor-iconfont editor-iconword-left"></i></a>
+            </el-col>
+            <el-col :span="6">
+              <a><i style="font-size: 16px;" class="editor-iconfont editor-iconword-right"></i></a>
+            </el-col>
+            <el-col :span="6">
+              <a><i style="font-size: 16px;" class="editor-iconfont editor-iconliangduanduiqi"></i></a>
+            </el-col>
+          </el-row>
+        </div>
+      </el-col>
       <el-col :span="3"><div class="grid-content bg-purple"></div></el-col>
       <el-col :span="3"><div class="grid-content bg-purple"></div></el-col>
       <el-col :span="3"><div class="grid-content bg-purple"></div></el-col>

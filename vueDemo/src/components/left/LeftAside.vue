@@ -4,8 +4,9 @@
         <el-col :span="24">
           <el-menu
             default-active="1"
-            unique-opened=true
+            :unique-opened=true
             background-color="transparent"
+            class="el-menu-vertical-left"
             @open="handleOpen"
             @close="handleClose">
             <el-submenu index="1">
@@ -48,5 +49,9 @@
   #left-aside{
     /*border:1px solid #000000;*/
     height:500px;
+  }
+  .el-menu-vertical-left:not(.el-menu--collapse) {
+    width: 200px;
+    height: auto;
   }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <el-container>
       <!--顶部容器 -->
-      <el-header height="136px" class="header">
+      <el-header height="136px" class="header" v-if="showHeader">
         <Header></Header>
       </el-header>
       <el-container>
@@ -15,7 +15,7 @@
         </el-main>
       </el-container>
       <!--底部容器-->
-      <el-footer><Footer></Footer></el-footer>
+      <el-footer height="40px"><Footer></Footer></el-footer>
     </el-container>
 </template>
 
@@ -30,7 +30,7 @@
       components: {Footer, LeftAside, CanvasPanel, Header, MyComponent},
       data(){
         return {
-
+          showHeader:true
         }
       }
     }
@@ -39,5 +39,19 @@
 <style scoped>
   .header,.el-footer,.el-main{
     padding:0px;
+  }
+  .el-container{
+    /*display: flex;*/
+    /*flex-direction: inherit;*/
+    /*flex: 1;*/
+    /*flex-basis: auto;*/
+    /*box-sizing: border-box;*/
+    /*min-width: 0;*/
+    margin:0px;
+    background-color:#F1F1F1;
+  }
+  .el-aside{
+    /*box-sizing: border-box;*/
+    /*flex-shrink: 0;*/
   }
 </style>

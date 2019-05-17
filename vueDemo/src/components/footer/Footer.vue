@@ -13,7 +13,8 @@
 <style scoped>
   #footer{
     width:100%;
-    height:30px;
+    /*height:30px;*/
+    height: 100%;
     background-color:#000000;
     display: flex;                /*设置为flex布局*/
     justify-content: center;   /*水平居中*/
