@@ -3,15 +3,17 @@
 <!--    <img src="./assets/logo.png">-->
 <!--    <router-view/>-->
 <!--    <router-view>/myComponent</router-view>-->
-    <KindEditor></KindEditor>
+<!--    <KindEditor></KindEditor>-->
+    <my-component></my-component>
   </div>
 </template>
 
 <script>
 import KindEditor from "./components/KindEditor";
+import MyComponent from "./components/myComponent";
 export default {
   name: 'App',
-  components: {KindEditor},
+  components: {MyComponent, KindEditor},
 }
 </script>
 
