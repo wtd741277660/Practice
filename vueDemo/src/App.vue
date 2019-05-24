@@ -6,7 +6,9 @@
 <!--    <KindEditor></KindEditor>-->
 <!--    <my-component></my-component>-->
     <!--数字输入框组件-->
-    <input-number v-model="value" :min="0" :max="100" :step="10"></input-number>
+    <input-number v-model="value" :min="0" :max="100" :step="10">
+      <input slot="aaa"/>
+    </input-number>
   </div>
 </template>
 

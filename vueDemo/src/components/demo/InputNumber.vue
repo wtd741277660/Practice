@@ -13,6 +13,8 @@
               :disabled="currentValue <= min"
       >
         -</button>
+      <slot name="aaa"></slot>
+      <slot></slot>
     </div>
 </template>
 
