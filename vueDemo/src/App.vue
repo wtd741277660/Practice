@@ -3,15 +3,19 @@
 <!--    <img src="./assets/logo.png">-->
 <!--    <router-view/>-->
 <!--    <router-view>/myComponent</router-view>-->
-    <KindEditor></KindEditor>
+<!--    <KindEditor></KindEditor>-->
+    <BasicTest></BasicTest>
   </div>
 </template>
 
 <script>
 import KindEditor from "./components/KindEditor";
+import Demo from "./components/Demo";
+import ComputedTest from "./components/test/ComputedTest";
+import BasicTest from "./components/test/form/BasicTest";
 export default {
   name: 'App',
-  components: {KindEditor},
+  components: {BasicTest, ComputedTest, Demo, KindEditor},
 }
 </script>
 
